@@ -1,10 +1,10 @@
-﻿Imports Microsoft.VisualBasic
-Imports System.Windows
+﻿Imports System.Windows
 Imports DXPivotGrid_CustomizeBrushes.DataSet1TableAdapters
 
 Namespace DXPivotGrid_CustomizeBrushes
 	Partial Public Class MainWindow
 		Inherits Window
+
 		Private salesPersonDataAdapter As New SalesPersonTableAdapter()
 		Public Sub New()
 			InitializeComponent()
